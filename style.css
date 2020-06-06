@@ -1,0 +1,308 @@
+/******************* header *****************/
+
+.header {
+    background-image: url("background image.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    background-position: center;
+    width: 1350px;
+    margin-bottom: 30px;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+
+@media only screen and (min-width: 126px) {
+    .header {
+        background-image: url("background image.jpg");
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+@media only screen and(min-width: 126px;
+) {
+    .foodies {
+        text-align: center;
+    }
+    .caption {
+        text-align: center;
+    }
+}
+
+
+.navbar {
+    opacity: 0.4 !important;
+}
+
+.nav-item {
+    color: tomato !important;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 30%;
+}
+
+.foodies {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caption {
+    position: relative;
+    top: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    text-align: center;
+}
+
+.img {
+    width: 300px;
+    height: 250px;
+}
+
+/************* MENU *************/
+
+.menu {
+    font-family: Arnoldboecklin, fantasy;
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+}
+
+.col-lg-3 {
+    /* display: flex !important; */
+    width: 500px !important;
+    background-color: darkslategray !important;
+    box-shadow: 2px 4px 5px grey !important;
+    height: auto;
+    /* justify-content: space-around !important; */
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+.fastfood {
+    width: 90px;
+    padding-bottom: 3px;
+}
+
+.container {
+    margin-bottom: 150px;
+}
+
+.desert {
+    padding-top: 20px;
+}
+
+/************ footer **************/
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+hr {
+    display: block;
+    margin-left: 25px;
+    width: 90%;
+    margin-top: 5px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.day {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px
+}
+
+.fa-calendar {
+    font-size: 20px
+}
+
+.time, .person, .email {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.fa-clock-o {
+    font-size: 20px;
+}
+
+.timings {
+    margin-top: 50px;
+    margin-left: 20px
+}
+
+.big-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+
+.contact, .booking, .fa-facebook-official {
+    margin-left: 20px;
+}
+
+.fa-facebook-official {
+    margin-left: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.fa-twitter {
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.fa-instagram {
+    cursor: pointer;
+}
+
+.booking, .opening-timings {
+    margin-right: 35px;
+}
+
+.copywrite {
+    background-color: darkslategray;
+    height: 50px;
+    width: 500px;
+    color: whitesmoke;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.copy {
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/***************** booking **************/
+
+.fa-check {
+    color: red;
+}
+
+.booking-successful {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/*************** About us *************/
+
+.line {
+    display: block;
+    margin-left: 2px;
+    width: 15%;
+    margin-top: 5px;
+    border: 1px solid white;
+    color: black;
+}
+
+.mission {
+    background-image: url("https://st2.depositphotos.com/1891407/10272/v/950/depositphotos_102723300-stock-illustration-cooking-kitchen-food-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    background-position: center;
+    width: 1350px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 150px;
+}
+
+@media only screen and (min-width: 126px) {
+    .mission {
+        background-image: url("https://st2.depositphotos.com/1891407/10272/v/950/depositphotos_102723300-stock-illustration-cooking-kitchen-food-background.jpg");
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+.Mission, .vision {
+    color: white;
+    padding-top: 5px;
+    padding-left: 280px
+}
+
+/************************* order ****************/
+
+.fa-check {
+    color: red;
+}
+
+.order-confirmed {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/******************* fastfood menu  ***********************/
+
+.body {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.chicken, .beef, .zingo, .sizzling, .fries, .add {
+    width: 400px;
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    border-radius: 50px 20px;
+    margin-bottom: 30px;
+}
+
+.table {
+    margin-bottom: 60px;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 50px 20px;
+}
+
+.button1:hover {
+    background-color: orange;
+}
+
+#button {
+    background-color: black;
+}
+
+.menu-heading {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    font-size: x-large;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
